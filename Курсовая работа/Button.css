@@ -1,0 +1,121 @@
+
+@keyframes avrora3dAnim{ /*Анимация плавного осветления при наведении*/
+    0%{
+        opacity: 0.6;
+        font-size: 105%;
+    }
+    10%{
+        opacity: 0.7;
+        font-size: 110%;
+    }
+    20%{
+        opacity: 0.8;
+        font-size: 115%;
+    }
+    30%{
+        opacity: 0.9;
+        font-size: 120%;
+    }
+    40%{
+        opacity: 1;
+        font-size: 125%;
+    }
+    50%{
+        opacity: 1.1;
+        font-size: 125%;
+    }
+    60%{
+        opacity: 1.2;
+        font-size: 125%;
+    }
+    70%{
+        opacity: 1.2;
+        font-size: 125%;
+    }
+    80%{
+        opacity: 1.3;
+        font-size: 125%;
+    }
+    90%{
+        opacity: 1.4;
+        font-size: 125%;
+    }
+    100%{
+        opacity: 1.5;
+        font-size: 125%;
+    }
+}
+
+
+@keyframes avrora3dAnimOut{ /*Анимация плавного затухания после отсутсвия курсора*/
+
+    100%{
+        opacity: 0.6;
+        font-size: 105%;
+    }
+    90%{
+        opacity: 0.7;
+        font-size: 110%;
+    }
+    80%{
+        opacity: 0.8;
+        font-size: 115%;
+    }
+    70%{
+        opacity: 0.9;
+        font-size: 120%;
+    }
+    60%{
+        opacity: 1;
+        font-size: 125%;
+    }
+    50%{
+        opacity: 1.1;
+        font-size: 125%;
+    }
+    40%{
+        opacity: 1.2;
+        font-size: 125%;
+    }
+    30%{
+        opacity: 1.2;
+        font-size: 125%;
+    }
+    20%{
+        opacity: 1.3;
+        font-size: 125%;
+    }
+    10%{
+        opacity: 1.4;
+        font-size: 125%;
+    }
+    0%{
+        opacity: 1.5;
+        font-size: 125%;
+    }
+}
+
+.row .col{
+    background-image: linear-gradient(to top, rgba(112, 7, 186, 0.2), rgba(30,87,153,0.2), rgba(138, 36, 212, 0.2));
+    color: #fff;
+    opacity: 60;
+}
+
+.nav1-item--hidden{
+    animation-name: avrora3dAnimOut;
+    animation-duration: 250ms;
+    opacity:0.6;
+
+}
+
+.nav1-item:hover{
+    animation-name: avrora3dAnim;
+    animation-duration: 150ms;
+    opacity: 1.5;
+    font-size: 125%
+}
+
+.social-anim:hover{
+    color:black;
+
+}

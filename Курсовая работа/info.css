@@ -1,0 +1,22 @@
+body{
+    background: #000 url(https://phonoteka.org/uploads/posts/2021-05/1620676151_2-phonoteka_org-p-fon-fistashkovii-nezhnii-2.jpg);
+
+}
+p{
+    font-family: Bradley Hand, cursive;
+    font-size: 18px;
+    margin-left: 25px;
+    line-height: 25px;
+}
+h1{
+    font-family: Bradley Hand, cursive;
+    font-size: 30px;
+    text-align: center;
+    line-height: 25px;
+}
+ul{
+    font-family: Bradley Hand, cursive;
+    font-size: 18px;
+    margin-left: 25px;
+    line-height: 25px;
+}
